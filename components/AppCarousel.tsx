@@ -1,6 +1,7 @@
-import { Dimensions, StyleSheet, Text, View, Image } from 'react-native'
+import { View, Image, Dimensions, StyleSheet, Text } from 'react-native'
 import React, { useState } from 'react'
 import Carousel from 'react-native-reanimated-carousel'
+
 
 export default function AppCarousel() {
     const [pagingEnabled, setPagingEnabled] = useState(true)
@@ -49,7 +50,7 @@ export default function AppCarousel() {
             scrollAnimationDuration={1000}
             renderItem={({ item }) => (
                 <View style={styles.CarouselItem}>
-                    <Image styles={styles.img} source={item.image} />
+                    <Image style={styles.img} source={item.image} />
                 </View>
             )}
         />

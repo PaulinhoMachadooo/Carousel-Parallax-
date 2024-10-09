@@ -1,5 +1,5 @@
 import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
+import { View, StyleSheet, Text, } from 'react-native';
 import AppCarousel from './components/AppCarousel';
 import Parallax from './components/Parallax';
 
@@ -8,7 +8,7 @@ export default function App() {
     <View style={styles.container}>
       {/* <AppCarousel /> */}
       <Parallax />
-      <StatusBar style="auto" />
+      
     </View>
   );
 }

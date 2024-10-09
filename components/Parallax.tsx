@@ -23,7 +23,6 @@ const list = [
         id: '2',
         title: 'Second Item',
         color: '#899F9C',
-        color: '#899F9C',
         img: require('./images/2.jpg')
     },
     {
